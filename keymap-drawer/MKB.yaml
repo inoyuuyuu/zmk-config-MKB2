@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: MKB}
 layers:
   Def:
-  - TAB
+  - LEFT PARENTHESIS
   - Q
   - W
   - E
@@ -12,8 +12,8 @@ layers:
   - I
   - O
   - P
-  - BKSP
-  - {t: ESC, h: BT}
+  - RIGHT PARENTHESIS
+  - AT
   - A
   - S
   - D
@@ -24,7 +24,7 @@ layers:
   - K
   - L
   - SEMI
-  - {t: SQT, h: Mouse}
+  - MINUS
   - LSHFT
   - Z
   - X
@@ -35,18 +35,77 @@ layers:
   - M
   - COMMA
   - DOT
-  - UP
-  - FSLH
-  - {t: ESC, h: LCTL}
+  - SLASH
+  - RIGHT SHIFT
+  - LCTRL
   - LGUI
-  - LALT
-  - {t: SPACE, h: Num}
-  - {t: DEL, h: Fnc}
-  - {t: BACKSPACE, h: Fnc}
-  - {t: SPACE, h: Num}
+  - {t: TAB, h: Mouse}
+  - {t: SPACE, h: Fnc}
+  - {t: DEL, h: Num}
+  - {t: BACKSPACE, h: Scr}
+  - {t: ENTER, h: Num}
+  - '!'
+  - BACKSLASH
+  - RIGHT ALT
   - LEFT
+  - UP
+  - SPACE
   - DOWN
   - RIGHT
+  - HOME
+  - PG UP
+  - ENTER
+  - PG DN
+  - END
+  - A
+  - B
+  Mouse:
+  - ESC
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&mkp MB5'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&mkp MB1'
+  - '&mkp MB2'
+  - '&msc SCRL_UP'
+  - '&msc SCRL_DOWN'
+  - {t: ▽, type: trans}
+  - '&mkp MB4'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - LEFT
   - UP
   - SPACE
@@ -99,8 +158,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LALT
-  - ENTER
   - {t: ENTER, type: held}
+  - ENTER
   - ENTER
   - ENTER
   - {t: ▽, type: trans}
@@ -158,69 +217,10 @@ layers:
   - {t: ▽, type: trans}
   - ENTER
   - ENTER
+  - ENTER
   - {t: ENTER, type: held}
   - ENTER
   - ENTER
-  - ENTER
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - LEFT
-  - UP
-  - SPACE
-  - DOWN
-  - RIGHT
-  - HOME
-  - PG UP
-  - ENTER
-  - PG DN
-  - END
-  - A
-  - B
-  Mouse:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '&mkp MB1'
-  - '&mkp MB3'
-  - '&mkp MB2'
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -278,7 +278,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -308,7 +308,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
