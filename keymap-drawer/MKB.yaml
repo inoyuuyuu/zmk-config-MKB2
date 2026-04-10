@@ -40,10 +40,10 @@ layers:
   - LCTRL
   - LGUI
   - {t: TAB, h: Mouse}
-  - {t: SPACE, h: Def}
-  - {t: DEL, h: Num}
-  - {t: BACKSPACE, h: Scr}
-  - {t: ENTER, h: Num}
+  - {t: SPACE, h: Num}
+  - {t: DEL, h: Scr}
+  - {t: BACKSPACE, h: BT}
+  - ENTER
   - '!'
   - BACKSLASH
   - RIGHT ALT
@@ -158,8 +158,8 @@ layers:
   - {t: ▽, type: trans}
   - ENTER
   - '0'
-  - {t: ▽, type: trans}
-  - {t: LANGUAGE 2, type: held}
+  - {type: held}
+  - LANGUAGE 2
   - LANGUAGE 1
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -218,8 +218,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -278,7 +278,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
